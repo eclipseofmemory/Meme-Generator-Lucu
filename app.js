@@ -4,15 +4,21 @@ const port = 3000;
 
 // Array kutipan absurd
 const kutipan = [
-  "Jangan pernah menyerah, kecuali ada diskon besar di toko online",
-  "Kesuksesan itu seperti mie instan, cepat tapi tidak sehat",
-  "Hidup itu seperti sepeda, kalau berhenti ya jatuh sih",
-  "Jika kamu tidak bisa menjadi bintang, jadilah router WiFi, semua mencarimu",
-  "Tidur siang itu tidak malas, itu menghemat energi",
-  "Kalau tidak bisa membawa pulang piala, bawa pulang menu restoran saja",
-  "Saya tidak malas, saya sedang menghemat tenaga",
-  "Tersesat bukan berarti hilang, hanya saja GPS-nya error",
-  "Teman sejati adalah yang meminjamkan charger tanpa diminta"
+    "Jangan menyerah... kecuali disuruh diet, itu susah bener.",
+    "Teruslah melangkah, walau isi dompet cuma suara gema.",
+    "Capek boleh, ngeluh dikit nggak apa-apa, asal tetap posting story semangat.",
+    "Hidupmu berat? Tenang, itu tandanya kamu lagi di 'level hard'. EXP-nya gede.",
+    "Bangkit! Karena tidur 12 jam juga nggak menyelesaikan masalah.",
+    "Maju terus, walau realita sering mentalin kamu kayak bola pingpong.",
+    "Rezeki nggak ke mana... tapi seringnya nyasar dulu ke orang lain.",
+    "Jangan takut gagal... Elon Musk aja pernah ngeluarin nama anak kayak password Wi-Fi.",
+    "Tersesat itu wajar, bahkan Google Maps aja kadang ngaco.",
+    "Terus semangat ya! Hidup memang absurd, tapi kamu lebih absurd jadi pasti bisa hadapi.",
+    "Kalau jatuh, bangun. Kalau kepleset, ketawa dulu, baru lanjut hidup.",
+    "Jangan biarkan mimpi cuma jadi mimpi... minimal jadi bahan tweet lucu.",
+    "Tetap positif... tapi jangan pas liat hasil test kesehatan.",
+    "Kerja keraslah sampai kucingmu pun mulai mempertanyakan kenapa kamu pulang malam terus.",
+    "Ingat: satu-satunya batasan dalam hidupmu adalah... kuota dan sinyal."
 ];
 
 // Array emoji acak
