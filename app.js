@@ -23,8 +23,21 @@ const kutipan = [
 
 // Array emoji acak
 const emojis = [
-  "🤦‍♂️", "🐒", "🌮", "🤯", "🥳", "🦄", "🦥", "🍕", "🛌", 
-  "🚀", "🦖", "⏰", "🧠", "🌈", "🤡", "🧟‍♂️", "🧙‍♂️", "🦸‍♀️"
+   "🤦‍♂️🍔", // Jangan menyerah... kecuali disuruh diet, itu susah bener.
+    "🐒💸",    // Teruslah melangkah, walau isi dompet cuma suara gema.
+    "🍕📱",    // Capek boleh, ngeluh dikit nggak apa-apa, asal tetap posting story semangat.
+    "🎮⚡",    // Hidupmu berat? Tenang, itu tandanya kamu lagi di 'level hard'. EXP-nya gede.
+    "🛌💤",    // Bangkit! Karena tidur 12 jam juga nggak menyelesaikan masalah.
+    "🏓🌀",    // Maju terus, walau realita sering mentalin kamu kayak bola pingpong.
+    "🦥🦋",    // Rezeki nggak ke mana... tapi seringnya nyasar dulu ke orang lain.
+    "🧠💡",    // Jangan takut gagal... Elon Musk aja pernah ngeluarin nama anak kayak password Wi-Fi.
+    "📍🗺️",    // Tersesat itu wajar, bahkan Google Maps aja kadang ngaco.
+    "💪🔥",    // Terus semangat ya! Hidup memang absurd, tapi kamu lebih absurd jadi pasti bisa hadapi.
+    "😂🤣",    // Kalau jatuh, bangun. Kalau kepleset, ketawa dulu, baru lanjut hidup.
+    "🌈✨",    // Jangan biarkan mimpi cuma jadi mimpi... minimal jadi bahan tweet lucu.
+    "🏥😷",    // Tetap positif... tapi jangan pas liat hasil test kesehatan.
+    "🐱💻",    // Kerja keraslah sampai kucingmu pun mulai mempertanyakan kenapa kamu pulang malam terus.
+    "📶📱"     // Ingat: satu-satunya batasan dalam hidupmu adalah... kuota dan sinyal.
 ];
 
 // Siapkan templat HTML
@@ -92,9 +105,11 @@ const createMemePage = (quote, emoji) => `
 
 // Route untuk halaman utama
 app.get('/', (req, res) => {
-  const randomQuote = kutipan[Math.floor(Math.random() * kutipan.length)];
-  const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
-  res.send(createMemePage(randomQuote, randomEmoji));
+  // Mengambil kutipan dan emoji dengan index acak
+  const randomIndex = Math.floor(Math.random() * kutipan.length);
+  const quote = kutipan[randomIndex];
+  const emoji = emojis[randomIndex];
+  res.send(createMemePage(quote, emoji));
 });
 
 // Mulai server
