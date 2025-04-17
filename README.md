@@ -6,7 +6,7 @@ Selamat datang di **Meme Lucu Indonesia** — tempat berkumpulnya meme-meme koca
 
 Ini adalah kumpulan meme lucu, bikin ngakak. Semua meme di sini bisa berupa:
 
-- Gambar dengan caption lucu
+- Kutipan absurd dengan emojis 
 
 ## Kenapa Bikin Repositori Meme?
 
