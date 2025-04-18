@@ -4,7 +4,7 @@ Selamat datang di **Meme Lucu Indonesia** — tempat berkumpulnya meme-meme koca
 
 ## Apa Ini?
 
-Ini adalah kumpulan meme lucu, bikin ngakak. Semua meme di sini bisa berupa:
+Ini adalah kumpulan kutipan dengan emojis. meme di sini bisa berupa:
 
 - Kutipan absurd dengan emojis 
 
@@ -16,4 +16,5 @@ Karena tertawa itu sehat, dan GitHub itu... ya... biasanya isinya serius-serius.
 
 1. Clone repo ini:
 
-git clone https://github.com/eclipseofmemory/latihan-node.js-NPM.git
+git clone https://github.com/eclipseofmemory/Meme-Generator-Lucu.git
+npm install
