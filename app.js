@@ -93,8 +93,6 @@ const createMemePage = (quote, emoji) => `
     <div class="quote">"${quote}"</div>
     <div class="emoji">${emoji}</div>
     <div>
-    <h1>DWI AERLANGGA HUSAIN<h1>
-    <h2>SMKN 10 LUWU</h2>
     
     </div>
   </div>
