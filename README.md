@@ -19,3 +19,5 @@ Karena tertawa itu sehat, dan GitHub itu... ya... biasanya isinya serius-serius.
 git clone https://github.com/eclipseofmemory/Meme-Generator-Lucu.git
 
 npm install
+
+node app.js
